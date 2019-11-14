@@ -1,8 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Dyukovlad | Front-end developer`,
+    description: `I’m Dyukovlad, a 31 years old self-taught Front-end developer, from Russia.`,
+    author: `@dyukovlad`,
+    siteUrl: `https://dyukovlad.ru`,
+    social: {
+      twitter: 'dyukovlad',
+      instagram: 'dyukovlad',
+      linkedin: 'dyukovlad',
+      facebook: 'dyukovlad',
+      github: 'dyukovlad',
+      email: 'dyukovlad@gmail.com',
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,17 +27,27 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+          name: `Dyukovlad | Front-end developer`,
+          short_name: `Dyukovlad`,
+          icon: `src/images/icon.png`,
+          start_url: `/`,
+          background_color: `#212121`,
+          theme_color: `#127EB1`,
+          display: `minimal-ui`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
+    {
+    resolve: `gatsby-plugin-intl`,
+    options: {
+      // language JSON resource path
+      path: `${__dirname}/src/intl`,
+      // supported language
+      languages: [`en`, `ru`],
+      // language file path
+      defaultLanguage: `en`,
+      redirect: true,
+    },
+  },
   ],
 }
