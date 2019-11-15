@@ -1,0 +1,115 @@
+.header__container{
+    @extend %split;
+    padding: 1.625rem 1rem 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    text-decoration: none;
+    color: $color-text;
+
+    &__title{
+        font-size: $font-size-large;
+        font-weight: bold;
+        text-decoration: none;
+        letter-spacing: .05em;
+        color: $color-text;
+        display: inline-block;
+    }
+
+    &__desc{
+        display: block;
+        transform: translateY(-2px);
+        color: $color-text;
+        font-size: $font-size-extra-small;
+        text-align: left;
+        margin: .25rem auto 0;
+    }
+
+    @media #{$media-phone-large}{
+        &__title:after{
+            content: '';
+            height: 1rem;
+            width: 1px;
+            display: inline-block;
+            background: $color-text;
+            margin: 0 4px 0 6px;
+        }
+
+        &__desc{
+            display: inline-block;
+        }
+    }
+
+    @media #{$media-tablet}{
+        margin-bottom: 0;
+    }
+}
+
+.site-menu{
+    display: none;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+
+    border-left: 1px solid $color-text-light;
+    border-right: 1px solid $color-text-light;
+
+    &__item{
+        display: inline-block;
+        padding: .5rem .825rem;
+        text-align: center;
+        flex: 50%;
+    }
+
+    &__link{
+        font-weight: 400;
+        letter-spacing: 0.06em;
+        font-variant: small-caps;
+        text-transform: lowercase;
+        text-align: center;
+        text-decoration: none;
+        color: $color-text-light;
+        transition: map-get($transition, short );
+
+        &:hover, &:focus{
+            color: $color-text;
+        }
+
+        &--active{
+            color: $color-text;
+        }
+    }
+
+    &--mobile{
+        display: none;
+    }
+
+    @media #{$media-tablet}{
+        display: block;
+        flex: 1 0 auto;
+        border: none;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-flow: row nowrap;
+
+        &__item{
+            padding: 0;
+            margin-left: 1rem;
+            flex: auto;
+        }
+    }
+
+    @media #{$media-desktop-small}{
+        flex: 0 1 auto;
+
+        &__item{
+            margin-left: 1.5rem;
+        }
+    }
+}

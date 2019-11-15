@@ -1,0 +1,47 @@
+@import '../00-global/reset';
+@import '../00-global/vars';
+@import '../00-global/global';
+.case-study {
+  &__content {
+    margin-bottom: 2rem;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+    max-width: $container-size;
+    margin: 0 auto 1rem;
+  }
+
+  &__cta {
+    max-width: $container-size-small;
+    margin: 2rem auto 4rem;
+    text-align: center;
+    background: $color-bg-light;
+    padding: 1.5rem 1rem 1.75rem;
+
+    & > h3 {
+      line-height: 1.5;
+    }
+
+    & > .btn {
+      margin: 1rem auto 0;
+    }
+  }
+
+  p:empty {
+    padding: 0;
+    margin: 0;
+  }
+
+  figure {
+    max-width: 100%;
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 0.5rem auto;
+    opacity: 0.675;
+  }
+}
