@@ -1,0 +1,40 @@
+@bp-largest: 75em; //1200px
+@bp-large: 68.75em; //1110px
+@bp-medium: 56.25em; //900px
+@bp-small: 37.5em; //600px
+@bp-smallest: 31.25em; //500px
+
+
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px
+
+	@media only screen and (max-width: @bp-large) {
+		font-size: 50%;
+	}
+    @media only screen and (max-width: @bp-medium) {
+        font-size: 45%;
+    }
+}
+
+body{
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	color: #000;
+	font-weight: 400;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+.container{
+    max-width: 97rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}

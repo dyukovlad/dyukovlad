@@ -1,5 +1,5 @@
 import React from "react"
-import { useIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
+import { useIntl, Link } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,7 +14,7 @@ const IndexPage = () => {
         <p>{intl.formatMessage({ id: "hello" })}</p>
         <p>Now go build something great.</p>
 
-        // <Link to="/page-2/">Go to page 2</Link>
+        <Link to="/page-2/">Go to page 2</Link>
       </Layout>
     )
 }
