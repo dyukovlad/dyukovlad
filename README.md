@@ -1,7 +1,7 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey, nice to see you.</h1>
 
 
-<p>Welcome to my page! </br> I'm Vladislav Dyukov, Fullstack developer from <img src="https://image.flaticon.com/icons/svg/3013/3013955.svg" width="13"/> <b>Saint Petersburg, Russia</b></p>
+<p>Welcome to my page! </br> I'm Vladislav Dyukov, Fullstack developer from <b>Saint Petersburg, Russia</b></p>
 <h3>Things I code with</h3>
 <p><img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript" /> 
   <img alt="React" src="https://img.shields.io/badge/-React-black?style=flat-square&logo=react" /> 
@@ -15,6 +15,6 @@
 
 # Personal Portfolio Website
 
-## [Check it live here](https://dyukovlad.ru/)
+## [Check it live here](https://github.com/dyukovlad/)
 <!-- ![Thumbnail](thumbnail.png) -->
 Personal portfolio created with Gatbsy.
