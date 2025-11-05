@@ -13,8 +13,7 @@
   <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku" /> 
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker" /></p>
 
-# Personal Portfolio Website
+# Personal Website
 
-## [Check it live here](https://github.com/dyukovlad/)
-<!-- ![Thumbnail](thumbnail.png) -->
-Personal portfolio created with Gatbsy.
+## [Check it live here](https://dyukovlad/github.io)
+
