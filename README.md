@@ -15,5 +15,5 @@
 
 # Personal Website
 
-## [Check it live here](https://dyukovlad/github.io)
+## [Check it live here](https://dyukovlad.github.io)
 
