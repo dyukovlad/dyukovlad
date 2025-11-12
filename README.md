@@ -13,7 +13,6 @@
   <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql" />
   <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb" /> 
   <img alt="Postgresql" src="https://img.shields.io/badge/-Postgresql-black?style=flat-square&logo=postgresql" />
-  <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku" /> 
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker" />
 </div>
 
